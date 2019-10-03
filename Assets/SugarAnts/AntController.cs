@@ -7,11 +7,7 @@ public class AntController : MonoBehaviour
     public float speed;
 
     private bool isStuck = false;
-    // Start is called before the first frame updatej
-    void Start()
-    {
-        
-    }
+    bool isInCup = false;
 
     // Update is called once per frame
     void Update()
@@ -38,5 +34,11 @@ public class AntController : MonoBehaviour
     public void Stuck() {
         isStuck = true; 
         GetComponent<Rigidbody>().detectCollisions = false;
+    }
+
+    public void InCup() {
+        if (isInCup) { return; }
+        isInCup = true;
+        Destroy(gameObject);
     }
 }

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SugarAntsScene.unity
     guid: 505f1510ebcdd4f9ea5dee69ee92b190
+  - enabled: 1
+    path: Assets/Scenes/TyppoScene.unity
+    guid: 79387f71a32164d5d97e93a286599366
   m_configObjects: {}
