@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlatformGrabScene.unity
     guid: a51798b70bf384031b80e8d069eb2af4
+  - enabled: 1
+    path: Assets/Scenes/BreakAroundScene.unity
+    guid: ca404915d8ce54982850b3efc3ec5d88
   m_configObjects: {}
