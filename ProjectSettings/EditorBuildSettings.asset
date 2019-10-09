@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BreakAroundScene.unity
     guid: ca404915d8ce54982850b3efc3ec5d88
+  - enabled: 1
+    path: Assets/Scenes/ColorScribeScene.unity
+    guid: 87a9bbdc3eeb943aca5b05a71535cbdb
   m_configObjects: {}
