@@ -8,6 +8,7 @@ TagManager:
   - ant
   - obstacle
   - bullet
+  - collectable
   layers:
   - Default
   - TransparentFX

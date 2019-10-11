@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ColorScribeScene.unity
     guid: 87a9bbdc3eeb943aca5b05a71535cbdb
+  - enabled: 1
+    path: Assets/Scenes/ThwompDodgeScene.unity
+    guid: ba8ec4199b4974c4ba9d9c1828c56dcc
   m_configObjects: {}
