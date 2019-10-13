@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HopUpFoot : MonoBehaviour
 {
-    public HopUpPlayer player;
+    public PlatformPlayer player;
 
     void OnTriggerEnter2D(Collider2D other)
     {
