@@ -25,6 +25,10 @@ public class RunNGunPlayer : PlatformPlayer
         } else if (rb.velocity.x < 0) {
             movingRight = false;
         }
+        if (transform.position.y < -10) {
+            gameController.GameOver();
+            Destroy(gameObject);
+        }
     }
 
     void Shoot() {

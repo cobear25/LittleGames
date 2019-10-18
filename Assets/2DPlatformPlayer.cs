@@ -41,6 +41,13 @@ public class PlatformPlayer : MonoBehaviour
         }
     }
 
+    void LateUpdate()
+    {
+        if (rb.velocity.y == 0) {
+            canJump = true;
+        }
+    }
+
     public void Landed() {
         canJump = true;
     }

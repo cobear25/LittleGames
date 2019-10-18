@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlyAroundPlayer : MonoBehaviour
+public class TrailBlazerPlayer : MonoBehaviour
 {
-    public FlyAroundGameController gameController;
+    public TrailBlazerGameController gameController;
+    public GameObject firePrefab;
     // Start is called before the first frame update
     void Start()
     {
-        
+        AddFire();
     }
 
     // Update is called once per frame
@@ -36,14 +37,11 @@ public class FlyAroundPlayer : MonoBehaviour
         transform.Translate(Vector2.right * 0.2f, Space.Self);
     }
 
-    List<GameObject> collectables = new List<GameObject>{};
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "collectable" && !collectables.Contains(other.gameObject)) {
-            collectables.Add(other.gameObject);
-            Destroy(other.gameObject);
-            gameController.CollectableCollected();
-        }
+    void AddFire() {
+        var fire = Instantiate(firePrefab);
+        fire.transform.position = transform.position;
+        fire.transform.rotation = transform.rotation;
+        Invoke("AddFire", 0.03f);
     }
 
     void OnCollisionEnter2D(Collision2D collisionInfo)

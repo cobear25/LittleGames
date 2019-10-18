@@ -44,4 +44,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RunNGunScene.unity
     guid: 6b653f66eaf62418ea82e3e85d5f5ca4
+  - enabled: 1
+    path: Assets/Scenes/FlyAroundScene.unity
+    guid: e70ca2134081c41e4bc9d132623291c2
+  - enabled: 1
+    path: Assets/Scenes/TrailBlazerScene.unity
+    guid: be3aa0677a94843a990aafca5dd9da55
+  - enabled: 1
+    path: Assets/Scenes/GoombopScene.unity
+    guid: fc9c13b9e586e4dd7b7d0a10c0e90d8f
+  - enabled: 1
+    path: Assets/Scenes/FiveCoinsScene.unity
+    guid: 6be7e1bcadcc1408d8a285c9b4dfcf05
+  - enabled: 1
+    path: Assets/Scenes/IsaacScene.unity
+    guid: d79e69176ef7b42c292b04d8cba6b5bb
   m_configObjects: {}
