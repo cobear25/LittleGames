@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IsaacScene.unity
     guid: d79e69176ef7b42c292b04d8cba6b5bb
+  - enabled: 1
+    path: Assets/Scenes/SkywardScene.unity
+    guid: 16a5bc3a720184e42998c2082f9bc0f0
   m_configObjects: {}
