@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SkywardScene.unity
     guid: 16a5bc3a720184e42998c2082f9bc0f0
+  - enabled: 1
+    path: Assets/Scenes/RedvsBlueScene.unity
+    guid: 880ccfc8d52eb46bcb99493e191597c4
+  - enabled: 1
+    path: Assets/Scenes/CupTheRopeScene.unity
+    guid: 0bcadb6ec40794ce0b94b3c789258dbf
   m_configObjects: {}
