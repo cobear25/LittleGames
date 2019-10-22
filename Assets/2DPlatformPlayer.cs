@@ -48,11 +48,11 @@ public class PlatformPlayer : MonoBehaviour
         }
     }
 
-    public void Landed() {
+    public virtual void Landed(int side) {
         canJump = true;
     }
 
-    public void LeftGround() {
+    public virtual void LeftGround(int side) {
         canJump = false;
     }
 }
