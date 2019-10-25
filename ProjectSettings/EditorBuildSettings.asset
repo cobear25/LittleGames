@@ -74,4 +74,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WallJumperScene.unity
     guid: 9337bdf69ce2b49cd8b93d2ab0ad7810
+  - enabled: 1
+    path: Assets/Scenes/BoxedInScene.unity
+    guid: b5ee5bf93ea1b42c8a65d35d35cae496
+  - enabled: 1
+    path: Assets/Scenes/PrejumpScene.unity
+    guid: 0c89a94a774e44de387b7b678d6df7a4
   m_configObjects: {}
