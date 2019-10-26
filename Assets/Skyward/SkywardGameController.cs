@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SkywardGameController : GameController
 {
-    public GameObject debree1Prefab;
-    public GameObject debree2Prefab;
+    public GameObject debris1Prefab;
+    public GameObject debris2Prefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +14,9 @@ public class SkywardGameController : GameController
         {
             GameObject deb;
             if (Random.Range(0, 2) == 0) {
-                deb = Instantiate(debree1Prefab);
+                deb = Instantiate(debris1Prefab);
             } else {
-                deb = Instantiate(debree2Prefab);
+                deb = Instantiate(debris2Prefab);
             }
             float randScale = Random.Range(0.2f, 0.7f);
             float randRot = Random.Range(0.0f, 360.0f);

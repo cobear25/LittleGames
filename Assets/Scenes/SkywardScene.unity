@@ -709,9 +709,9 @@ MonoBehaviour:
   gameOverPanel: {fileID: 787019941}
   scoreText: {fileID: 0}
   isGameOver: 0
-  debree1Prefab: {fileID: 6621113308068037672, guid: 6d29d9ac30b4444379cb87d92498c847,
+  debris1Prefab: {fileID: 6621113308068037672, guid: 6d29d9ac30b4444379cb87d92498c847,
     type: 3}
-  debree2Prefab: {fileID: 5564282538895874743, guid: 7a3ecdcb3c0664abda63a510bce1a657,
+  debris2Prefab: {fileID: 5564282538895874743, guid: 7a3ecdcb3c0664abda63a510bce1a657,
     type: 3}
 --- !u!1 &787019941
 GameObject:

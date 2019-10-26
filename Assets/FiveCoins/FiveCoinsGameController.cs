@@ -48,7 +48,7 @@ public class FiveCoinsGameController : GameController
         for (int i = 1; i < 6; i++)
         {
             var coin = Instantiate(coinPrefab);
-            coin.transform.position = new Vector2(Random.Range(-27.0f, 27.0f), Random.Range(0.0f, 15.0f));
+            coin.transform.position = new Vector2(Random.Range(-25.0f, 25.0f), Random.Range(0.0f, 15.0f));
             coin.GetComponentInChildren<TextMesh>().text = $"{i}";
         }
     }

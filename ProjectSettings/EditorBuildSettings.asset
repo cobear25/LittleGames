@@ -80,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PrejumpScene.unity
     guid: 0c89a94a774e44de387b7b678d6df7a4
+  - enabled: 1
+    path: Assets/Scenes/RocketLanderScene.unity
+    guid: 906d758f86b5b4c98b29f8bddc3b760c
   m_configObjects: {}
