@@ -83,4 +83,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RocketLanderScene.unity
     guid: 906d758f86b5b4c98b29f8bddc3b760c
+  - enabled: 1
+    path: Assets/Scenes/SwarmScene.unity
+    guid: a92c48eb21a014b829c84389711c17fb
   m_configObjects: {}
