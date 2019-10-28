@@ -9,6 +9,8 @@ public class PlatformPlayer : MonoBehaviour
     public float jumpForce = 15;
     public bool jumping = false;
     public bool canJump = true;
+
+    public bool movesInAir = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,11 @@ public class PlatformPlayer : MonoBehaviour
     public virtual void Update()
     {
         float h = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(h * moveSpeed * 100 * Time.deltaTime, rb.velocity.y);
+        if (canJump) {
+            rb.velocity = new Vector2(h * moveSpeed * 100 * Time.deltaTime, rb.velocity.y);
+        } else if (movesInAir) {
+            rb.velocity = new Vector2(h * moveSpeed * 100 * Time.deltaTime, rb.velocity.y);
+        }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumping = true;

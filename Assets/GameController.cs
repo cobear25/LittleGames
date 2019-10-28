@@ -31,4 +31,7 @@ public class GameController : MonoBehaviour
     public void Quit() {
         SceneManager.LoadScene("MenuScene");
     }
+
+    public virtual void EnemyDestroyed() {
+    }
 }
