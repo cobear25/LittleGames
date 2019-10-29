@@ -89,4 +89,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CoinshotScene.unity
     guid: 9172a50cdeff8444da6f4e1a8dc9b680
+  - enabled: 1
+    path: Assets/Scenes/BoxGunnerScene.unity
+    guid: 1bce235b0f0974c7b857fb4bc169a5eb
   m_configObjects: {}
