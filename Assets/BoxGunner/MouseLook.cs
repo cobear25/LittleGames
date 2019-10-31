@@ -8,6 +8,8 @@ public class MouseLook : MonoBehaviour
     public Transform player;
     public GameObject cubePrefab;
 
+    public bool shouldShoot = true;
+
     float verticalRotation = 0;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class MouseLook : MonoBehaviour
         player.Rotate(Vector3.up * mouseX);
         transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
 
-        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+        if (Input.GetKeyDown(KeyCode.Mouse0) && shouldShoot) {
             Shoot();
         }
     }

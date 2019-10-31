@@ -92,4 +92,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BoxGunnerScene.unity
     guid: 1bce235b0f0974c7b857fb4bc169a5eb
+  - enabled: 1
+    path: Assets/Scenes/CardDefenseScene.unity
+    guid: a57da809b6d2e410db03b7e90837ccab
+  - enabled: 1
+    path: Assets/Scenes/GraveyardEscapeScene.unity
+    guid: 02f497301b4fe4e87b987b4de30b1957
   m_configObjects: {}
